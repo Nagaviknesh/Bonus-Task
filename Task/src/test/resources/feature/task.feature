@@ -4,7 +4,7 @@ Feature: Find the  app name
   Scenario Outline: Find app name which has version as null
     Given MicroService Version
     When Enter environment name as <value>
-   git Then app name displayed
+    Then app name displayed
     Examples:
       | value |
       | "Qa1" |
