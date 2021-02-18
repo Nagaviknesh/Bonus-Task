@@ -3,8 +3,8 @@ Feature: Find the  app name
   Background: Cloud control app
   Scenario Outline: Find app name which has version as null
     Given MicroService Version
-#    When Enter environment name as <value>
-#    git Then app name displayed
+    When Enter environment name as <value>
+   git Then app name displayed
     Examples:
       | value |
       | "Qa1" |
